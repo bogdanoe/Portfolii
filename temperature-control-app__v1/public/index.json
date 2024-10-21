@@ -1,0 +1,59 @@
+{
+  "current": {
+    "cloud": 46,
+    "feelslike": 20,
+    "humidity": 46
+  },
+  "forecast": [
+    {
+      "condition": {
+        "icon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+        "text": "Partly cloudy"
+      },
+      "weekDay": "Wednesday",
+      "month": "August",
+      "day": 31,
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Thursday",
+      "month": "September",
+      "day": 1,
+      "condition": {
+        "icon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+        "text": "Partly cloudy"
+      },
+      "maxTemp": 21.5
+    },
+    {
+      "weekDay": "Wednesday",
+      "month": "August",
+      "day": 31,
+      "condition": {
+        "icon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+        "text": "Partly cloudy"
+      },
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Wednesday",
+      "month": "August",
+      "day": 31,
+      "condition": {
+        "icon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+        "text": "Partly cloudy"
+      },
+      "maxTemp": 23.2
+    },
+    {
+      "weekDay": "Wednesday",
+      "month": "August",
+      "day": 31,
+      "condition": {
+        "icon": "http://cdn.weatherapi.com/weather/64x64/day/116.png",
+        "text": "Partly cloudy"
+      },
+      "maxTemp": 23.2
+    }
+  ]
+}

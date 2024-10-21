@@ -1,0 +1,30 @@
+.meta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 18px;
+
+  .meta__item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+    font-size: 26px;
+    color: #fff;
+
+    &:not(:last-child) {
+      margin-right: 80px;
+    }
+  }
+
+  .meta__icon {
+    flex-shrink: 0;
+    margin-right: 16px;
+
+    svg {
+      margin-right: 16px;
+      fill: currentColor;
+    }
+  }
+}
