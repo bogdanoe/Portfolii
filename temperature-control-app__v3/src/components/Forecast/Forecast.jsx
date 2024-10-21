@@ -5,7 +5,7 @@ import ForecastCards from "./components/ForecastCards/ForecastCards.jsx";
 
 // import {sendRequest} from "../../helpers/sendRequest.js";
 // import {API_KEY,API_URL} from "../../configs/API.js";
-import {actionFetchWeatherCity} from "../../store/actions.js";
+import {actionFetchWeatherCity} from "../../store/slices.js";
 import {useDispatch,useSelector} from 'react-redux'
 import {selectorWeather} from '../../store/selectors.js'
 

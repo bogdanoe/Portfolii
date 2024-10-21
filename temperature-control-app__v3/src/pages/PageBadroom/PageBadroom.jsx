@@ -6,7 +6,7 @@ import Weather from '../../components/Forecast/';
 import Modal from '../../components/ModalTemperature/ModalTemperature.jsx';
 import {useSelector,useDispatch} from "react-redux"
 import {selectorTemperatureBedroom} from '../../store/selectors.js'
-import {actionBedroomDe,actionBedroomIn} from '../../store/actions.js'
+import {actionBedroomDe,actionBedroomIn} from '../../store/slices.js'
 
 
 const PageBadroom = () => {

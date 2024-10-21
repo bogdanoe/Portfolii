@@ -6,7 +6,7 @@ import Weather from '../../components/Forecast/';
 import Modal from '../../components/ModalTemperature/ModalTemperature.jsx';
 import {useDispatch, useSelector} from "react-redux";
 import {selectorTemperatureChildren} from "../../store/selectors.js";
-import {actionChildrenDe,actionChildrenIn} from '../../store/actions.js'
+import {actionChildrenIn,actionChildrenDe} from '../../store/slices.js'
 
 const PageChildren = () => {
 	// вся логика которая была в странице HomePage я перенес в эту отдельную комнату и получилось что стейт по модалке и температуре стал локальным для этой страницы
@@ -17,22 +17,22 @@ const PageChildren = () => {
 
 	const handleModal = () => setIsOpen(!isOpen)
 	const handleHot = () => {
+		dispatch(actionChildrenIn())
 		// setTemperature((tem) => {
 		// 	if (tem < 25) {
 		// 		return tem + 1
 		// 	}
 		// 	return tem
 		// })
-		dispatch(actionChildrenIn())
 	}
 	const handleCold = () => {
+		dispatch(actionChildrenDe())
 		// setTemperature((tem) => {
 		// 	if (tem > 16) {
 		// 		return tem - 1
 		// 	}
 		// 	return tem
 		// })
-		dispatch(actionChildrenDe())
 	}
 
 	return (
